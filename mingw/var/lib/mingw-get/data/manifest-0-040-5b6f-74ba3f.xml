@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-040-5b6f-74ba3f">
+    <release tarname="gcc-fortran-4.8.1-4-mingw32-dev.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="lib" />
+        <dir path="lib/gcc" />
+        <dir path="lib/gcc/mingw32" />
+        <dir path="lib/gcc/mingw32/4.8.1" />
+        <dir path="lib/gcc/mingw32/4.8.1/finclude" />
+        <file path="lib/gcc/mingw32/4.8.1/finclude/omp_lib.f90" />
+        <file path="lib/gcc/mingw32/4.8.1/finclude/omp_lib.h" />
+        <file path="lib/gcc/mingw32/4.8.1/finclude/omp_lib.mod" />
+        <file path="lib/gcc/mingw32/4.8.1/finclude/omp_lib_kinds.mod" />
+        <file path="lib/gcc/mingw32/4.8.1/libgfortran.a" />
+        <file path="lib/gcc/mingw32/4.8.1/libgfortran.dll.a" />
+        <file path="lib/gcc/mingw32/4.8.1/libgfortran.spec" />
+        <file path="lib/gcc/mingw32/4.8.1/libgfortranbegin.a" />
+        <dir path="libexec" />
+        <dir path="libexec/gcc" />
+        <dir path="libexec/gcc/mingw32" />
+        <dir path="libexec/gcc/mingw32/4.8.1" />
+        <file path="libexec/gcc/mingw32/4.8.1/f951.exe" />
+        <dir path="mingw32" />
+        <dir path="mingw32/lib" />
+        <dir path="mingw32/lib/gcc" />
+        <dir path="mingw32/lib/gcc/mingw32" />
+        <dir path="mingw32/lib/gcc/mingw32/4.8.1" />
+        <dir path="mingw32/lib/gcc/mingw32/4.8.1/finclude" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/finclude/omp_lib.f90" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/finclude/omp_lib.h" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/finclude/omp_lib.mod" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/finclude/omp_lib_kinds.mod" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/libgfortran.a" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/libgfortran.dll.a" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/libgfortran.spec" />
+        <file path="mingw32/lib/gcc/mingw32/4.8.1/libgfortranbegin.a" />
+        <dir path="mingw32/libexec" />
+        <dir path="mingw32/libexec/gcc" />
+        <dir path="mingw32/libexec/gcc/mingw32" />
+        <dir path="mingw32/libexec/gcc/mingw32/4.8.1" />
+        <file path="mingw32/libexec/gcc/mingw32/4.8.1/f951.exe" />
+    </manifest>
+</package>

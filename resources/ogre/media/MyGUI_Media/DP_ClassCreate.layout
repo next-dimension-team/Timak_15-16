@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+	<Widget type="Window" skin="WindowCX" position="220 225 210 360" name="ClassCreateWindow">
+		<Property key="Caption" value="Class Creation"/>
+		<Widget type="EditBox" skin="EditBoxStretch" position="5 10 190 280" name="ClassCreateEditBox"/>
+		<Widget type="Button" skin="Button" position="55 295 90 25" name="ClassCreateButton">
+			<Property key="Caption" value="Create"/>
+		</Widget>
+	</Widget>
+</MyGUI>

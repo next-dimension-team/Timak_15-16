@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-036-5834-a886a9">
+    <release tarname="gcc-ada-4.8.1-4-mingw32-bin.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="bin" />
+        <file path="bin/gnat.exe" />
+        <file path="bin/gnatbind.exe" />
+        <file path="bin/gnatchop.exe" />
+        <file path="bin/gnatfind.exe" />
+        <file path="bin/gnatkr.exe" />
+        <file path="bin/gnatlink.exe" />
+        <file path="bin/gnatls.exe" />
+        <file path="bin/gnatmake.exe" />
+        <file path="bin/gnatprep.exe" />
+        <file path="bin/gnatxref.exe" />
+        <file path="bin/mingw32-gnat.exe" />
+        <file path="bin/mingw32-gnatbind.exe" />
+        <file path="bin/mingw32-gnatchop.exe" />
+        <file path="bin/mingw32-gnatfind.exe" />
+        <file path="bin/mingw32-gnatkr.exe" />
+        <file path="bin/mingw32-gnatlink.exe" />
+        <file path="bin/mingw32-gnatls.exe" />
+        <file path="bin/mingw32-gnatmake.exe" />
+        <file path="bin/mingw32-gnatprep.exe" />
+        <file path="bin/mingw32-gnatxref.exe" />
+    </manifest>
+</package>

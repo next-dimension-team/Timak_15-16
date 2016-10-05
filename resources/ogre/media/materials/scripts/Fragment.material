@@ -1,0 +1,109 @@
+material Fragment_material
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend modulate
+			depth_write off
+		
+			cull_hardware none
+            cull_software none
+			depth_check off
+			
+			texture_unit
+			{
+				texture 3D_material_4.png
+			}
+		}
+	}
+}
+
+material Fragment_material0
+{
+	technique
+	{
+		pass
+		{
+			ambient		0.9 0.2 0.1 1.0
+			diffuse		0.9 0.2 0.1 1.0
+			emissive	0.9 0.2 0.1 1.0
+			
+			lighting on
+			scene_blend modulate
+		
+			cull_hardware none
+            cull_software none
+			
+			depth_write off
+			depth_check off
+		}
+	}
+}
+
+material Fragment_bookmark_material
+{
+	technique
+	{
+		pass
+		{
+			ambient		0.9 0.2 0.1 1.0
+			diffuse		0.9 0.2 0.1 1.0
+			emissive	0.9 0.2 0.1 1.0
+			
+			lighting on
+			scene_blend modulate
+		
+			cull_hardware none
+            cull_software none
+			
+			depth_write off
+			depth_check off
+		}
+	}
+}
+
+material Fragment_type_material
+{
+	technique
+	{
+		pass
+		{
+			ambient		0.9 0.6 0.4 1.0
+			diffuse		0.9 0.6 0.4 1.0
+			emissive	0.9 0.6 0.4 1.0
+			
+			lighting on
+			scene_blend modulate
+			
+			cull_hardware none
+            cull_software none
+			
+			depth_write off
+			depth_check off
+		}
+	}
+}
+
+material Fragment_condition_material
+{
+	technique
+	{
+		pass
+		{
+			ambient		0.9 0.6 0.4 1.0
+			diffuse		0.9 0.6 0.4 1.0
+			emissive	0.9 0.6 0.4 1.0
+			
+			lighting on
+			scene_blend modulate
+			
+			cull_hardware none
+            cull_software none
+			
+			depth_write off
+			depth_check off
+		}
+	}
+}

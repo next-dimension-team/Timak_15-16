@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+	<Widget type="Button" skin="ButtonSmall" position="0 0 50 20" layer="Back" name="button_menu" >
+        <Property key="Widget_Caption" value="Menu" />
+    </Widget>
+    <Widget type="Tab" skin="Tab" position="0 0 275 165" align="Right Top" layer="Back" name="tab">
+        <Property key="Widget_Show" value="true"/>
+        <Widget type="Sheet" skin="Default" position="8 29 240 124">
+            <Property key="Widget_Caption" value="Layers"/>
+			<Widget type="Button" skin="ButtonImage" position="5 5 50 60" name="button_layer" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageLayer"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+			<Widget type="Button" skin="ButtonImage" position="65 5 50 60" name="button_layer_s" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageLayerSelect"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+			<Widget type="StaticText" skin="StaticText" position="10 105 240 20" name="Note1" layer="Back">
+				<Property key="Widget_Caption" value="Press R or F to move across layers"/>
+			</Widget>
+        </Widget>
+        <Widget type="Sheet" skin="Default" position="8 29 240 124">
+            <Property key="Widget_Caption" value="Nodes"/>
+            <Widget type="Button" skin="ButtonImage" position="5 5 50 60" name="button_initial" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageInitial"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+            <Widget type="Button" skin="ButtonImage" position="5 75 50 60" name="button_activity" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageActivity"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+            <Widget type="Button" skin="ButtonImage" position="185 5 50 60" name="button_final">
+				<Property key="Button_ImageResource" value="pic_ButtonImageFinal"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>			
+        </Widget>
+        <Widget type="Sheet" skin="Default" position="8 29 240 124">
+            <Property key="Widget_Caption" value="Flows"/>
+			<Widget type="Button" skin="ButtonImage" position="5 75 50 60" name="button_dependency" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageDependency"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+        </Widget>
+		<Widget type="Sheet" skin="Default" position="8 29 240 124">
+            <Property key="Widget_Caption" value="Fragment"/>
+			<Widget type="Button" skin="ButtonImage" position="5 5 50 60" name="button_fragment_seq">
+				<Property key="Button_ImageResource" value="pic_ButtonImageFragment"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+			<Widget type="Button" skin="ButtonImage" position="65 5 50 60" name="button_fragment_alt">
+				<Property key="Button_ImageResource" value="pic_ButtonImageFragment_alt"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+			<Widget type="Button" skin="ButtonImage" position="5 75 50 60" name="button_fragment_loop">
+				<Property key="Button_ImageResource" value="pic_ButtonImageFragment_loop"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>
+        </Widget>
+        <Widget type="Sheet" skin="Default" position="8 29 240 124">
+        <Property key="Widget_Caption" value="Save"/>
+			<Widget type="Button" skin="ButtonImage" position="5 5 50 60" name="button_export" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageExport"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>			
+            <Widget type="Button" skin="ButtonImage" position="5 75 50 60" name="button_import" layer="Back">
+				<Property key="Button_ImageResource" value="pic_ButtonImageImport"/>
+				<Property key="Button_ModeImage" value="true"/>
+			</Widget>            
+        </Widget>
+    </Widget>
+</MyGUI>

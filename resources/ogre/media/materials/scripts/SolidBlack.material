@@ -1,0 +1,18 @@
+material DP/SolidBlackMaterial
+{
+    technique
+    {
+		pass
+		{
+			cull_hardware none
+            cull_software none 
+
+			lighting off
+			depth_check off
+			texture_unit
+			{
+				texture 3D_UML_Connector.png
+			}
+		} 
+    }
+}

@@ -1,0 +1,17 @@
+material DP/BaseLineMaterial
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			scene_blend modulate
+			depth_write off
+			
+			cull_hardware none
+			cull_software none
+			
+			depth_check off
+		}
+	}
+}
